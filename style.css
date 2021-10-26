@@ -1,0 +1,99 @@
+
+
+body{
+    font-family: 'Noto Sans Mono', monospace;
+    font-size:18px;
+    color: white;
+    max-width: 640px;
+    margin: 0 auto 0 auto;
+    background-color:black;
+    padding-top: 40px;
+    /* Make sure to change the text color to white */
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 12px;
+       
+}
+
+
+
+section{
+    background-color:black;
+    padding: 20px;
+    
+}
+
+
+
+h2{
+    font-size: 15px;    
+    font-family: 'Noto Sans Mono', monospace;
+    line-height: 1.2;
+
+}
+
+ /* .image means the class */
+.image{
+    padding:0;
+}
+section img {
+    width: 100%;
+}
+
+.item{
+    background-color: white;
+    font-color: black;
+    font-family: 'Noto Sans Mono', monospace;
+   margin-top: 20px;
+  margin-bottom: 80px;
+    
+}
+ /*
+img{
+    width:640px;
+} */
+
+h3{
+    font-size: 30px;
+}
+.contact p{
+    margin-top: 20px:
+       
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+    border-color: gray;
+    
+}
+
+
+.contact box{
+    background-color: gray;
+    padding: 20px;
+    font-size: 10px;
+}
+
+/* This will help format your web to work on mobile */
+@media (max-width: 720px){
+   
+    header, section{
+        padding: 20px;
+    }
+    
+    body{
+        padding: 0;
+        font-size: 16px;
+    }
+    
+    h2, {
+        font-size: 1px;
+    }
+    
+   
+    
+}
